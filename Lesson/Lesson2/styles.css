@@ -1,0 +1,18 @@
+#test-text {
+    font-style: 40px !important;
+    font-style: italic;
+    text-decoration: line-through;  
+    font-family: 'Arial';
+    text-transform: uppercase;
+}
+
+/* Những thuộc tính - giá trị => định dạng khối nội dung (Box model) */
+#my-box {
+    background-color: pink;
+    width: 50%;
+    height: 183px;
+    border: 10px dashed gray;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}

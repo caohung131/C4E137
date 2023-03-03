@@ -1,0 +1,48 @@
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table tr {
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+table tr:nth-of-type(2),tr:nth-of-type(4) {
+    background-color: rgb(235, 233, 233);
+}
+
+
+
+table tr:nth-of-type(1) {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+table tr td:nth-of-type(2) {
+    color: blue;
+}
+
+table tr:nth-of-type(1) td:nth-of-type(2) {
+    color: white;
+}
+table tr td {
+   padding: 10px;
+}
+
+table button {
+    padding: 7px 10px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+table tr td:nth-of-type(4) {
+    color: red;
+}
+
+table tr:nth-of-type(1) td:nth-of-type(4) {
+    color: white;
+}

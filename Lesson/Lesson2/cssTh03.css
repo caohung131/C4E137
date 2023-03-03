@@ -1,0 +1,44 @@
+form {
+    background-color: rgb(255, 200, 200);
+    border: 1px solid black;
+    padding: 20px;
+    width: 600px;
+}
+
+form p {
+    width: 100%;
+    display: flex;
+}
+
+form input {
+    margin-left: 100px;
+    border: 1px solid gray;
+    width: 300px;
+    border-radius: 5px;
+}
+/* 
+form p input:nth-child(2) {
+    margin-left: 253px;
+    text-align: end;
+} */
+
+#input1 {
+    margin-left: 253px;
+}
+
+#input2 {
+    margin-left: 231px;
+}
+
+#input3 {
+    margin-left: 254px;
+    
+}
+
+button {
+    width: 120px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}

@@ -1,0 +1,28 @@
+table {
+    width: 500px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+table tr td {
+    border: 1px solid gray;
+}
+
+table tr:nth-of-type(1) {
+    background-color: green;
+    color: white;
+    text-align: center;
+    
+}
+
+/* table tr:nth-of-type(1) td {
+    border: 1px solid gray;
+} */
+
+table tr:nth-of-type(2) , tr:nth-of-type(4) {
+    background-color: grey;
+}
+
+table tr:nth-of-type(1) td:nth-of-type(2) {
+    width: 40%;
+}
