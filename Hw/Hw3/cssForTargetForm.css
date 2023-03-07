@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-form {
+    width: 80%;
+    background-color: gray;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+}
+
+.box-itemt {
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    margin-top: 2px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.box-m1 {
+    background-color: greenyellow;
+}
+
+.box-m2 {
+    background-color: green;
+}
+
+.box-m3 {
+    background-color: purple;
+}
+
+.box-m4 {
+    background-color: plum;
+}
+
+.box-m5 {
+    background-color: blue;
+}
+
+.box-target {
+    background-color: khaki;
+}
+
+.box-form-layout-two {
+    margin: 20px;
+    width: 33.3%;
+}
+
+.box-form-layout-three {
+    margin: 20px;
+    width: 33.3%;
+}
+
+.box-target {
+    margin: 2rem 0;
+}
+
+.box-m1,.box-m2 {
+    margin: 3rem 0;
+}

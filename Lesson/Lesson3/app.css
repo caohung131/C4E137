@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 10px solid rgb(105, 105, 164);
+    background-color: rgb(219, 200, 204);
+}
+.box-1 {
+    z-index: 2;
+    position: relative;
+}
+
+.box-2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    z-index: 5;
+    border: 10px solid rgb(172, 126, 126);
+    background-color: aqua;
+}
+
+.menu {
+    height: 50px;
+    position: sticky;
+    top: 0;
+    background-color: pink;
+}

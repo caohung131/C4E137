@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+#content-container {
+   padding: 6%;
+   background-color: rgb(201, 201, 201);
+}
+
+#header-1 {
+    background-color: khaki;
+    border: 1px solid orange;
+}
+
+#header-1 h2 {
+    padding: 2px 15px;
+    text-align: center;
+}
+
+#content-1 {
+    margin-top: 20px;
+    border: 1px solid red;
+    background-color: darksalmon;
+}
+
+#content-2 {
+    border: 1px solid red;
+    margin-top: 20px;
+    background-color: darksalmon;
+}
+
+button {
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5%;
+    border: none;
+    margin-top: 10px;
+}
