@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: aqua;
+    padding: 2%;
+}
+
+.content-form {
+    background-color: pink;
+    padding: 2%;
+}
+
+.buton-form {
+    display: flex;
+    padding: 2% 0;
+    position: relative;
+}
+
+#keep-buton {
+    margin-right: 2%;
+    background-color: blue;
+}
+
+button {
+    border: none;
+    padding: 2px 4px;
+}
+
+#delete-buton {
+    margin-right: 5px;
+    background-color: rgb(165, 72, 103);
+}
+
+#delete-buton-notification {
+    padding: 3% 2%;
+    background-color: blue;
+    position: absolute;
+    top: -55px;
+    left: -10px;
+    text-align: center;
+    display: none;
+}
+
+/* #delete-buton-notification:hover {
+    display: block;
+} */
+
+#delete-buton:hover + #delete-buton-notification{
+    display: block;
+}

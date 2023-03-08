@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+table {
+    display: flex;
+    padding: 20px;
+    border: 1px solid blue;
+}
+
+#menu {
+}
+
+#sub-menu {
+    display: none;
+}
+
+#menu tr {
+    width: 33%;
+}
+
+td {
+    
+    padding: 20px 10px;
+    background-color: khaki;
+}
+
+tr td:nth-of-type(2):hover + #sub-menu {
+    background-color: rebeccapurple;
+    display: block;
+}
