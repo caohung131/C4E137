@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-header-1 {
+    display: flex;
+    background-color: khaki;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.logo-header-1 {
+    /* width: 70%; */
+    text-align: left;
+}
+
+.logo-header-1 > p {
+    border: 1px solid darkblue;
+    padding: 10px 15px;
+    /* width: 20%; */
+    background-color: yellow;
+}
+
+.menu-header-logo-1 {
+    display: flex;
+    /* width: 30%; */
+    text-align: center;
+}
+.menu-header-logo-1 > p {
+    border: 1px solid darkblue;
+    width: 100%;
+    text-align: center;
+    padding: 10px 15px;
+    background-color: peachpuff;
+    border-right: none;
+    
+}
+
+.menu-header-logo-1 > p:nth-of-type(3) {
+    border-right: 1px solid darkblue;
+}
+
+/* style 2 */
+.container-header-2 {
+    background-color: khaki;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.logo-header-2 {
+    display: flex;
+}
+
+.logo-header-2 >p {
+    border: 1px solid darkblue;
+    padding: 10px 15px;
+    background-color: yellow;
+}
+
+.logo-header-2 > h3 {
+    padding: 10px 15px;
+}
+
+.menu-header-logo-2 {
+    display: flex;
+}
+
+.menu-header-logo-2>p {
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.menu-header-logo-2>p:hover{
+    /* background-color: blueviolet; */
+    border: 1px solid green;
+}
+
+/* style 3 */
+
+.container-header-3 {
+    background-color: khaki;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.logo-header-3 {
+    display: flex;
+}
+
+.logo-header-3 >p {
+    border: 1px solid darkblue;
+    padding: 10px 15px;
+    background-color: yellow;
+}
+
+.logo-header-3 > h3 {
+    padding: 10px 15px;
+}
+
+.menu-header-logo-3 {
+    display: flex;
+}
+
+.menu-header-logo-3>p {
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.menu-header-logo-3>p:nth-of-type(2) {
+    border-radius: 50%;
+    border: 1px solid green;
+    padding: 20px;
+
+}
+
+.menu-header-logo-3>p:hover{
+    background-color: blueviolet;
+    /* border: 1px solid green; */
+}
+
