@@ -12,6 +12,7 @@
 .header {
     width: 100%;
     padding: 20px;
+    text-align: center;
     background-color: orange;
 }
 
@@ -36,4 +37,34 @@
     align-items: center;
     display: flex;
     justify-content: center;
+}
+
+.container-content-future {
+    width: 100%;
+}
+
+.feature-fomat-4 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50vh;
+    width: 100%;
+}
+
+.feature-itemt {
+    width: 50%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 25px solid white;
+    border-bottom: 15px solid white;
+}
+
+.feature-fomat-1 {
+    width: 100%;
+    background-color: orange;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
