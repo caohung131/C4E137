@@ -3,3 +3,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.left-sidebar {
+    width: 25%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-content {
+    width: 75%;
+    margin-left: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: orange;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+    box-sizing: border-box;
+}
+
+.footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    height: 50px;
+    width: 100%;
+}
