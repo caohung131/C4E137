@@ -153,3 +153,9 @@
 }
 
 }
+
+@media screen and (min-width: 510px) and (max-width: 719px) {
+    .itemt-content {
+        width: 100%;
+    }
+}

@@ -239,3 +239,58 @@
         width: 30%;
     }
 }
+
+
+
+@media screen and (min-width: 510px) and (max-width: 719px) {
+    .container {
+        width: 90%;
+    }
+
+    .itemt-content {
+        width: 100%;
+        margin-top: 10px !important;
+    }
+
+    .header-left {
+        width: 100%;
+    }
+
+    .header-center {
+        display: none;
+    }
+
+    .header-end {
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width: 360px) and (max-width: 509px) {
+    .container {
+        width: 90%;
+    }
+
+    .itemt-content {
+        width: 100%;
+        margin-top: 10px !important;
+    }
+
+    .header-left {
+        width: 100%;
+    }
+
+    .header-center {
+        display: none;
+    }
+
+    .header-end {
+        display: none;
+    }
+
+    .tag-number h1 {
+        font-size: 30px;
+    }
+
+}
