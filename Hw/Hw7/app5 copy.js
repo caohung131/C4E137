@@ -1,0 +1,1 @@
+// 11. Nhập vào 2 số m, n (m > 0, n > 0). Tìm bội chung nhỏ nhất của m, n.
