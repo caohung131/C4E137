@@ -201,32 +201,88 @@ let numbers =[1, 2,3,4,5,6,2,2,1,4,2,4];
 // console.log(numbers)
 
 // Kiểm tra trong mảng có số nhỏ hơn 10, lớn hơn 20
-isSmall10 = false;
-isBiger20 = false;
-for (let i = 0; i < numbers.length; i++) {
-    if(numbers[i] < 10) {
-        isSmall10 = true;
-    }
-    if(numbers[i] >20) {
-        isBiger20 = true;
-    }
+// isSmall10 = false;
+// isBiger20 = false;
+// for (let i = 0; i < numbers.length; i++) {
+//     if(numbers[i] < 10) {
+//         isSmall10 = true;
+//     }
+//     if(numbers[i] >20) {
+//         isBiger20 = true;
+//     }
 
-}
-if(isSmall10) {
-    console.log("Có số trong mảng nhỏ hơn 10")
-}
-if(isBiger20) {
-    console.log("Có số trong mảng lớn hơn 20")
-} 
+// }
+// if(isSmall10) {
+//     console.log("Có số trong mảng nhỏ hơn 10")
+// }
+// if(isBiger20) {
+//     console.log("Có số trong mảng lớn hơn 20")
+// } 
 
 // Nhập vào 1 số n cho đến khi n là 1 số trong mảng
+// let denDich = false;
+// let n=  Number(prompt("Nhập vào số n"));
+// for(let i = 0; i< numbers.length;i++) {
+    
+//     if(numbers[i] === n) {
+//         console.log("bạn đã tìm đúng");
+//         denDich = true;
+//         break;
+//     } else {
+//         while(numbers[i] != n || denDich == false) {
+//             let n=  Number(prompt("Nhập vào số n"));
+//             if(numbers[i] == n) {
+//                 console.log("bạn đã tìm đúng")
+//                 denDich = true;
+//                 break;
+//             }
+//         }
+//     }
 
+
+    
+// }
 // Sử dụng thuật toán Bubble Sort để sắp xếp phần tử theo thứ tự tăng dần.
+// for (let i = 0; i < numbers.length; i++) {
+//     for (let j = 1; j < i; j++) {
+//         if( numbers[i] <= numbers[j] ) {
+//             let temp = numbers[i];
+//             numbers[i] = numbers[j];
+//             numbers[j] = temp; 
+//             }
+//     }
 
+// }
+
+// console.log( numbers);
 
 // Bai 2. Khai báo 1 mảng s gồm các chuỗi bất kỳ. Nhập vào 1 chuỗi text.
+let s = ['cao khanh hung',
+'hao nam',
+'vai o',
+'vardum text'];
+
 // Tìm 1 chuỗi đầu tiên có độ dài nhỏ nhất trong mảng.
+
+let min = s[0];
+s.sort();
+console.log(s);
+
+for(let i = 1; i< s.length; i++) {
+    if( min.length < s[i].length) {
+        console.log(s[i]);
+    }
+}
+
+
 // Tìm những chuỗi trong mảng có chứa giá trị text.
+let value
+for(let i = 0; i< s.length; i++) {
+    value =  s[i].search("text");
+}
+
+console.log(value) 
+
 // Tạo mảng mới newS gồm các phần tử có giá trị là 3 ký tự đầu tiên của từng phần tử trong s.
 // Tạo ra 1 chuỗi là sự kết hợp của các phần tử trong s. Mỗi phần tử cách nhau bởi dấu ‘-’.
 
