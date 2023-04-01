@@ -1,0 +1,1 @@
+const $contentIput = document.getElementById();

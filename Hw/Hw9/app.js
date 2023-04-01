@@ -544,5 +544,18 @@ console.log("Số người chưa kết hôn là: "+ countNotMerried);
 
 
 // Đếm số lượng user theo từng ngành nghề tương ứng.
-let arrayJob = 
+let arrayJob = [];
+let a;
+
+users.forEach(element => {
+
+    // console.log(arrayJob);
+
+    if(element.job && arrayJob.includes(element.job) != element.job) {
+    arrayJob.push(element.job);
+
+    }
+});
+
+console.log(arrayJob);
 
