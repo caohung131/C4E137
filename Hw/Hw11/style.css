@@ -10,3 +10,9 @@ tr td{
 tr td:nth-of-type(4){
     text-align: center;
 }
+
+
+/* bài 2 */
+.Text-input p div {
+    padding-right: 40%;
+}

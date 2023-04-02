@@ -9,13 +9,13 @@
 </head>
 <body>
     <table>
-        <tr>
+        <tr class="elemet-delete">
             <td>ID</td>
             <td>Name</td>
             <td>Adress</td>
             <td></td>
         </tr>
-        <tr>
+        <tr class="elemet-delete">
             <td>1</td>
             <td>Name 1</td>
             <td>Adress 1</td>
@@ -23,7 +23,7 @@
                 <button class="btn-delete">Xóa</button>
             </td>
         </tr>
-        <tr>
+        <tr class="elemet-delete">
             <td>2</td>
             <td>Name 2</td>
             <td>Adress 2</td>
@@ -31,7 +31,7 @@
                 <button class="btn-delete">Xóa</button>
             </td>
         </tr>
-        <tr>
+        <tr class="elemet-delete">
             <td>3</td>
             <td>Name 3</td>
             <td>Adress 3</td>
@@ -48,6 +48,47 @@
             </td>
         </tr>
     </table>
+
+    <div class="register">
+       <form action="">
+            <h2>Đăng kí tài khoản</h2>
+            <div class="Text-input">
+                <p>
+                    Họ và tên: 
+                    <span>*</span><input type="text">
+                </p>
+                <p>
+                    Giới tính
+                    <select>
+                        <option value="Nam">Nam</option>
+                        <option value="Nữ">Nữ</option>
+                        <option value="Khác">Khác</option>
+                    </select>
+                </p>
+                <p>
+                    Tuổi
+                    <input type="text">
+                </p>
+                <p>
+                    Địa chỉ
+                    <input type="text">
+                </p>
+                <p>Email <span>*</span>
+                    <input type="email" id="email">
+                </p>
+                <p>Mật khẩu
+                    <input type="password" id="password">
+                </p>
+
+                <button>register</button>
+            </div>
+                
+               
+
+                
+            </div>
+       </form>
+    </div>
 
     <script src="./app.js"></script>
 </body>
