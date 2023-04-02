@@ -1,0 +1,12 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr td{
+    border: 1px solid black;
+}
+
+tr td:nth-of-type(4){
+    text-align: center;
+}
